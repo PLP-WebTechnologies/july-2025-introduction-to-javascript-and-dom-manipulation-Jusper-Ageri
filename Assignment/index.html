@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JS Project — Deliverables</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Week 5 JS Project</h1>
+      <p class="subtitle">Project on variables/conditionals, functions, loops and DOM interactions.</p>
+    </header>
+
+    <!-- Variables and conditions -->
+    <section id="part1" class="card">
+      <h2>Variables & Conditionals</h2>
+      <p>Enter your name and age, and choose membership status. Click <strong>Check</strong>.</p>
+      <label>
+        Name: <input id="nameInput" type="text" placeholder="Jusper Ageri" />
+      </label>
+      <label>
+        Age: <input id="ageInput" type="number" value="18" min="0" />
+      </label>
+      <label>
+        Member: <input id="memberCheckbox" type="checkbox" />
+      </label>
+      <button id="checkBtn">Check</button>
+      <div id="part1Output" class="output"></div>
+    </section>
+
+    <!-- Different functions -->
+    <section id="part2" class="card">
+      <h2>Custom Functions & List</h2>
+      <p>This part calls custom functions</p>
+      <input id="itemInput" type="text" placeholder="New item" />
+      <button id="addItemBtn">Add Item</button>
+      <button id="clearListBtn">Clear List</button>
+      <ul id="todoList"></ul>
+    </section>
+
+    <!-- Different loops -->
+    <section id="part3" class="card">
+      <h2>Loop Section</h2>
+      <p>Click to populate the list using different loops.</p>
+      <button id="forLoopBtn">Populate (for loop)</button>
+      <button id="whileLoopBtn">Populate (while loop)</button>
+      <div id="loopOutput" class="output"></div>
+    </section>
+
+    <!-- DOM Interactions -->
+    <section id="part4" class="card">
+      <h2>DOM Interactions</h2>
+      <p>Below are interactive controls that manipulate the page DOM.</p>
+      <button id="toggleThemeBtn">Toggle Theme</button>
+      <button id="countBtn">Click counter</button>
+      <span id="countDisplay">0</span>
+      <hr />
+      <form id="sampleForm">
+        <label>Email: <input id="emailInput" type="email" required placeholder="you@example.com" /></label>
+        <button type="submit">Submit Form</button>
+      </form>
+      <div id="formMessage" class="output"></div>
+    </section>
+
+    <footer>
+      <small>&copy; 2025 | Jusper Ageri | Week 5 JS Project Assigment.</small>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
